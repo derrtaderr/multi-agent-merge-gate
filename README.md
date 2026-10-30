@@ -1,5 +1,4 @@
-# ship-check
-
+# multi-agent-merge-gate
 **A deterministic merge gate for multi-agent software delivery — plus the
 orchestration contract it runs inside.** Several build agents work in parallel,
 each in an isolated worktree; an independent reviewer adversarially checks each
@@ -20,7 +19,7 @@ one measured build week:
 | Production-repo merges auto-merged by mistake | **0** (one correctly parked for a human) |
 
 The one receipt with a public, reproducible source: the **138 → 1264** test
-growth was on [`github.com/derrtaderr/gtm-architect`](https://github.com/derrtaderr/gtm-architect)
+growth was on [`github.com/derrtaderr/gtm-plan-builder`](https://github.com/derrtaderr/gtm-plan-builder)
 — clone it and run its suite to check the number yourself. The other figures are
 from the same build week's private lanes. No demo can fake a track record, and
 the engine below is the runnable proof of the rigor behind these numbers.
@@ -173,7 +172,7 @@ helper and the UTC bug it fixes are in [`docs/local-date.md`](docs/local-date.md
 
 ## Not to be confused with
 
-[`earn-autonomy`](https://github.com/derrtaderr/earn-autonomy) is a sibling
+[`agent-autonomy-gate`](https://github.com/derrtaderr/agent-autonomy-gate) is a sibling
 project about an eval-gated **autonomy trust ladder** — when an agent earns the
 right to run unattended over time. This repo is the other axis: a multi-agent
 **software-delivery loop with adversarial review gates** — how a single
